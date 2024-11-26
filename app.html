@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickInsight | App</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="importmap" defer>
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+    </script>
+    <script src="./js/app.js" type="module" defer></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="brand">
+        <span class="brand__quick">Quick</span>
+        <span class="brand__insight">Insight</span>
+      </div>
+
+      <div class="input">
+        <i class="input__icon icon fa-solid fa-magnifying-glass"></i>
+        <input class="input__text" type="text" placeholder="Search books" />
+      </div>
+
+      <ul class="nav__list">
+        <li class="nav__item" id="home">
+          <a href="index.html"><i class="icon fa-solid fa-house"></i></a>
+        </li>
+        <li class="nav__item" id="bookmarks">
+          <i class="icon fa-solid fa-bookmark"></i>
+        </li>
+        <li class="nav__item" id="dark-mode">
+          <i class="icon fa-solid fa-circle-half-stroke"></i>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main grid"></main>
+  </body>
+</html>
