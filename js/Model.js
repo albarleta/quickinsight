@@ -2,7 +2,7 @@
 with the database, performs data manipulations, and handles business logic **/
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
-const API_KEY = atob("QUl6YVN5QXREYUlwU0pUano4V1JMT011RFRZb1F4d2Z5WTZ0eUdn");
+const API_KEY = process.env.API_KEY;
 
 export class Model {
   constructor() {
