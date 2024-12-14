@@ -8,3 +8,5 @@ A web application that uses AI to generate concise book summaries and key takeaw
 - **Key Takeaways:** AI generated highlights for the most important points from each book.
 - **Efficient Evaluation:** Helps users decide if a book is worth their time.
 - **User-Friendly Interface:** Simple and intuitive design for easy navigation.
+
+Live demo: [Quick Insight](https://quickinsight-app.onrender.com/app.html)
